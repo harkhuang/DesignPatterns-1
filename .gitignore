@@ -83,3 +83,6 @@ Thumbs.db
 *.dll
 *.exe
 
+out/*
+.vs/*
+build/*

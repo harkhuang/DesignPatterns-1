@@ -55,6 +55,12 @@ public:
 
 int main()
 {
+
+    // 抽象的工厂  
+    // 抽象的工人 
+    // 抽象的产品
+    // 超类工厂 匹配 超类工人  生产超类产品
+    // 乐高积木
     IDoorFactory* woodenFactory = new DoorFactory<WoodenDoor, Carpenter>();
     {
         IDoor* door = woodenFactory->MakeDoor();
