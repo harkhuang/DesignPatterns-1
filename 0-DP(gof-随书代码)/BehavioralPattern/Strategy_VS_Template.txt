@@ -1,0 +1,52 @@
+Template method pattern: compile-time algorithm selection by subclassing
+Strategy pattern: run-time algorithm selection by containment
+
+* Inheritance
++ Pros
+  + Easy to modify the reused realization
+- Cons
+  - Break the encapsulation, the details of base class is exposed to inheriting sub-class
+  - "white-box" re-use, bad point is the same as the one above
+  - When there are modification in parent class, inheriting sub-classes will also have to modify.
+  - The realizations inherited from parent class can not be modified during runing (fixed during compiling time)
+
+* Composition
++ Pros
+  + "Black-box" reuse, the details of compsited class are invisible to outside
+  + have good encapsulation, as of "black-box"
+  + Less dependancy between realization and abstraction
+  + Able to define the realization during runing time(through a pointer to a similar class, namely the abstract base class)
+- Cons
+  - Too many objects in the system.
+
+Then as a rule, composition should be considered with high priority, then inheritance.
+
+
+Template Method is about Inheritance and Strategy is all about Composition.
+
+The strategy pattern is means of encapsulating something that is likely to change. In this case, the thing that is changing is an algorithm. By encapsulating the algorithm behind an interface, we have the ability to change the algorithm at run time. We also have the ability to configure individual objects in the context class with their own algorithm.
+
+The Template Method solves a different problem. We use the Template Method when we have a long, complicated algorithm that can be decomposed into a series of discreet steps. Some of the steps will be common for all of the objects in the class, and some will not. The Template Method converts the long, complicated algorithm into a series of calls to"sub operations". Each sub operation represents one of the steps in the original algorithm.
+
+Typically, this is done in an inheritance hierarchy, but it doesn't have to be. When using inheritance, we declare all of the steps in the super class. The Template Method is then written as a series of calls to these steps, frequently forwarding data calculated in one step to the next. Each sub operation that is common to all of the objects in the sub classes is also coded in the super class. The remaining operations are declared as abstract in the super class and implemented in the various sub classes.
+
+In this way, the structure of the algorithm is controlled by the super class, and the details are implemented in the sub classes. In this respect, the pattern is a little similar to the Strategy. However, because we have used inheritance, the actual sub operation implementations to be used by the various objects are fixed and cannot be changed at run time.
+
+Because of the rigidity that the use of inheritance causes, it is not uncommon for one (or more) of the steps in the Template Method to be implemented as a Strategy rather than hard coded in a sub class. This gives us the run time flexibility that may be needed.
+
+A simple example from our Design Patterns course. Let's suppose that we are implementing a voice mail system. The operation addMessage() consists of the following steps:
+Answer the phone;
+Greet the caller;
+Record the message;
+Format the message for storage;
+Open the Mailbox;
+Store the Message;
+Close the Mailbox;
+Disconnect the call;
+Notify the user.
+
+The addMessage() operation is a natural candidate to be implemented as a Template Method. Each of the steps listed above becomes a private operation in the Mailbox class. addMessage() is implemented as a series of calls to these operations.
+
+In the class example, we have sub classes for voice mailboxes and fax mailboxes. Operations like greet() are abstract in the super class and implemented in the sub classes. (The voice mailbox plays a recorded greeting and the fax mailboxes follows the synchronization protocol.) Operations like openTheMailbox() are implemented in the super class, and used by all of the sub classes.
+
+Now, let's assume that we want the user to be allowed to select how they are notified of a new message. Choices might include a text, a page, an email, etc. We also want the user to be allowed to change how they are notified at any time. We would use a Strategy to implement the notify() operation.

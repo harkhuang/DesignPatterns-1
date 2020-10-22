@@ -1,6 +1,7 @@
 #include <iostream>
 #include <string>
 
+// 动态的给一个对象添加额外的指责
 class ICoffee {
 public:
     virtual float GetCost() = 0;
@@ -43,12 +44,17 @@ public:
     std::string GetDescription() override { return coffee_.GetDescription() + ", vanilla"; }
 };
 
+
+
+//对一个基类对象反复修饰
+// wrapper  读音rapper  w不发音
+
 int main()
 {
     ICoffee* someCoffee = new SimpleCoffee();
     std::cout << someCoffee->GetCost() << std::endl;
     std::cout << someCoffee->GetDescription() << std::endl;
-
+   // 不断的修饰someCoffee
     someCoffee = new MilkCoffee(*someCoffee);
     std::cout << someCoffee->GetCost() << std::endl;
     std::cout << someCoffee->GetDescription() << std::endl;
