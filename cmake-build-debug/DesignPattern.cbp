@@ -1,0 +1,1430 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="DesignPattern"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="clang"/>
+		<Option virtualFolders="CMake Files\;CMake Files\SimpleFactory\;CMake Files\FactoryMethod\;CMake Files\AbstractFactory\;CMake Files\Builder\;CMake Files\Prototype\;CMake Files\Singleton\;CMake Files\Adapter\;CMake Files\Bridge\;CMake Files\Composite\;CMake Files\Decorator\;CMake Files\Facade\;CMake Files\Flyweight\;CMake Files\Proxy\;CMake Files\ChainOfResponsibility\;CMake Files\Command\;CMake Files\Iterator\;CMake Files\Mediator\;CMake Files\Memento\;CMake Files\Observer\;CMake Files\Visitor\;CMake Files\Strategy\;CMake Files\State\;CMake Files\TemplateMethod\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/hk/CLionProjects/DesignPatternsCpp/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/hk/CLionProjects/DesignPatternsCpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/hk/CLionProjects/DesignPatternsCpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/hk/CLionProjects/DesignPatternsCpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/hk/CLionProjects/DesignPatternsCpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/hk/CLionProjects/DesignPatternsCpp/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/hk/CLionProjects/DesignPatternsCpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/hk/CLionProjects/DesignPatternsCpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/hk/CLionProjects/DesignPatternsCpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/hk/CLionProjects/DesignPatternsCpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/hk/CLionProjects/DesignPatternsCpp/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/hk/CLionProjects/DesignPatternsCpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/hk/CLionProjects/DesignPatternsCpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/hk/CLionProjects/DesignPatternsCpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/hk/CLionProjects/DesignPatternsCpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="SimpleFactory">
+				<Option output="/Users/hk/CLionProjects/DesignPatternsCpp/cmake-build-debug/SimpleFactory/SimpleFactory" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/hk/CLionProjects/DesignPatternsCpp/cmake-build-debug/SimpleFactory"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/hk/CLionProjects/DesignPatternsCpp/cmake-build-debug/SimpleFactory/Makefile&quot;  VERBOSE=1 SimpleFactory"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/hk/CLionProjects/DesignPatternsCpp/cmake-build-debug/SimpleFactory/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/hk/CLionProjects/DesignPatternsCpp/cmake-build-debug/SimpleFactory/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/hk/CLionProjects/DesignPatternsCpp/cmake-build-debug/SimpleFactory/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="SimpleFactory/fast">
+				<Option output="/Users/hk/CLionProjects/DesignPatternsCpp/cmake-build-debug/SimpleFactory/SimpleFactory" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/hk/CLionProjects/DesignPatternsCpp/cmake-build-debug/SimpleFactory"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/hk/CLionProjects/DesignPatternsCpp/cmake-build-debug/SimpleFactory/Makefile&quot;  VERBOSE=1 SimpleFactory/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/hk/CLionProjects/DesignPatternsCpp/cmake-build-debug/SimpleFactory/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/hk/CLionProjects/DesignPatternsCpp/cmake-build-debug/SimpleFactory/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/hk/CLionProjects/DesignPatternsCpp/cmake-build-debug/SimpleFactory/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="FactoryMethod">
+				<Option output="/Users/hk/CLionProjects/DesignPatternsCpp/cmake-build-debug/FactoryMethod/FactoryMethod" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/hk/CLionProjects/DesignPatternsCpp/cmake-build-debug/FactoryMethod"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/hk/CLionProjects/DesignPatternsCpp/cmake-build-debug/FactoryMethod/Makefile&quot;  VERBOSE=1 FactoryMethod"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/hk/CLionProjects/DesignPatternsCpp/cmake-build-debug/FactoryMethod/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/hk/CLionProjects/DesignPatternsCpp/cmake-build-debug/FactoryMethod/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/hk/CLionProjects/DesignPatternsCpp/cmake-build-debug/FactoryMethod/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="FactoryMethod/fast">
+				<Option output="/Users/hk/CLionProjects/DesignPatternsCpp/cmake-build-debug/FactoryMethod/FactoryMethod" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/hk/CLionProjects/DesignPatternsCpp/cmake-build-debug/FactoryMethod"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/hk/CLionProjects/DesignPatternsCpp/cmake-build-debug/FactoryMethod/Makefile&quot;  VERBOSE=1 FactoryMethod/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/hk/CLionProjects/DesignPatternsCpp/cmake-build-debug/FactoryMethod/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/hk/CLionProjects/DesignPatternsCpp/cmake-build-debug/FactoryMethod/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/hk/CLionProjects/DesignPatternsCpp/cmake-build-debug/FactoryMethod/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="AbstractFactory1">
+				<Option output="/Users/hk/CLionProjects/DesignPatternsCpp/cmake-build-debug/AbstractFactory/AbstractFactory1" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/hk/CLionProjects/DesignPatternsCpp/cmake-build-debug/AbstractFactory"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/hk/CLionProjects/DesignPatternsCpp/cmake-build-debug/AbstractFactory/Makefile&quot;  VERBOSE=1 AbstractFactory1"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/hk/CLionProjects/DesignPatternsCpp/cmake-build-debug/AbstractFactory/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/hk/CLionProjects/DesignPatternsCpp/cmake-build-debug/AbstractFactory/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/hk/CLionProjects/DesignPatternsCpp/cmake-build-debug/AbstractFactory/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="AbstractFactory1/fast">
+				<Option output="/Users/hk/CLionProjects/DesignPatternsCpp/cmake-build-debug/AbstractFactory/AbstractFactory1" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/hk/CLionProjects/DesignPatternsCpp/cmake-build-debug/AbstractFactory"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/hk/CLionProjects/DesignPatternsCpp/cmake-build-debug/AbstractFactory/Makefile&quot;  VERBOSE=1 AbstractFactory1/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/hk/CLionProjects/DesignPatternsCpp/cmake-build-debug/AbstractFactory/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/hk/CLionProjects/DesignPatternsCpp/cmake-build-debug/AbstractFactory/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/hk/CLionProjects/DesignPatternsCpp/cmake-build-debug/AbstractFactory/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="AbstractFactory">
+				<Option output="/Users/hk/CLionProjects/DesignPatternsCpp/cmake-build-debug/AbstractFactory/AbstractFactory" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/hk/CLionProjects/DesignPatternsCpp/cmake-build-debug/AbstractFactory"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/hk/CLionProjects/DesignPatternsCpp/cmake-build-debug/AbstractFactory/Makefile&quot;  VERBOSE=1 AbstractFactory"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/hk/CLionProjects/DesignPatternsCpp/cmake-build-debug/AbstractFactory/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/hk/CLionProjects/DesignPatternsCpp/cmake-build-debug/AbstractFactory/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/hk/CLionProjects/DesignPatternsCpp/cmake-build-debug/AbstractFactory/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="AbstractFactory/fast">
+				<Option output="/Users/hk/CLionProjects/DesignPatternsCpp/cmake-build-debug/AbstractFactory/AbstractFactory" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/hk/CLionProjects/DesignPatternsCpp/cmake-build-debug/AbstractFactory"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/hk/CLionProjects/DesignPatternsCpp/cmake-build-debug/AbstractFactory/Makefile&quot;  VERBOSE=1 AbstractFactory/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/hk/CLionProjects/DesignPatternsCpp/cmake-build-debug/AbstractFactory/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/hk/CLionProjects/DesignPatternsCpp/cmake-build-debug/AbstractFactory/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/hk/CLionProjects/DesignPatternsCpp/cmake-build-debug/AbstractFactory/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Builder">
+				<Option output="/Users/hk/CLionProjects/DesignPatternsCpp/cmake-build-debug/Builder/Builder" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/hk/CLionProjects/DesignPatternsCpp/cmake-build-debug/Builder"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/hk/CLionProjects/DesignPatternsCpp/cmake-build-debug/Builder/Makefile&quot;  VERBOSE=1 Builder"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/hk/CLionProjects/DesignPatternsCpp/cmake-build-debug/Builder/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/hk/CLionProjects/DesignPatternsCpp/cmake-build-debug/Builder/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/hk/CLionProjects/DesignPatternsCpp/cmake-build-debug/Builder/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Builder/fast">
+				<Option output="/Users/hk/CLionProjects/DesignPatternsCpp/cmake-build-debug/Builder/Builder" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/hk/CLionProjects/DesignPatternsCpp/cmake-build-debug/Builder"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/hk/CLionProjects/DesignPatternsCpp/cmake-build-debug/Builder/Makefile&quot;  VERBOSE=1 Builder/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/hk/CLionProjects/DesignPatternsCpp/cmake-build-debug/Builder/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/hk/CLionProjects/DesignPatternsCpp/cmake-build-debug/Builder/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/hk/CLionProjects/DesignPatternsCpp/cmake-build-debug/Builder/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Prototype">
+				<Option output="/Users/hk/CLionProjects/DesignPatternsCpp/cmake-build-debug/Prototype/Prototype" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/hk/CLionProjects/DesignPatternsCpp/cmake-build-debug/Prototype"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/hk/CLionProjects/DesignPatternsCpp/cmake-build-debug/Prototype/Makefile&quot;  VERBOSE=1 Prototype"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/hk/CLionProjects/DesignPatternsCpp/cmake-build-debug/Prototype/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/hk/CLionProjects/DesignPatternsCpp/cmake-build-debug/Prototype/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/hk/CLionProjects/DesignPatternsCpp/cmake-build-debug/Prototype/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Prototype/fast">
+				<Option output="/Users/hk/CLionProjects/DesignPatternsCpp/cmake-build-debug/Prototype/Prototype" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/hk/CLionProjects/DesignPatternsCpp/cmake-build-debug/Prototype"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/hk/CLionProjects/DesignPatternsCpp/cmake-build-debug/Prototype/Makefile&quot;  VERBOSE=1 Prototype/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/hk/CLionProjects/DesignPatternsCpp/cmake-build-debug/Prototype/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/hk/CLionProjects/DesignPatternsCpp/cmake-build-debug/Prototype/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/hk/CLionProjects/DesignPatternsCpp/cmake-build-debug/Prototype/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Singleton">
+				<Option output="/Users/hk/CLionProjects/DesignPatternsCpp/cmake-build-debug/Singleton/Singleton" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/hk/CLionProjects/DesignPatternsCpp/cmake-build-debug/Singleton"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/hk/CLionProjects/DesignPatternsCpp/cmake-build-debug/Singleton/Makefile&quot;  VERBOSE=1 Singleton"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/hk/CLionProjects/DesignPatternsCpp/cmake-build-debug/Singleton/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/hk/CLionProjects/DesignPatternsCpp/cmake-build-debug/Singleton/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/hk/CLionProjects/DesignPatternsCpp/cmake-build-debug/Singleton/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Singleton/fast">
+				<Option output="/Users/hk/CLionProjects/DesignPatternsCpp/cmake-build-debug/Singleton/Singleton" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/hk/CLionProjects/DesignPatternsCpp/cmake-build-debug/Singleton"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/hk/CLionProjects/DesignPatternsCpp/cmake-build-debug/Singleton/Makefile&quot;  VERBOSE=1 Singleton/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/hk/CLionProjects/DesignPatternsCpp/cmake-build-debug/Singleton/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/hk/CLionProjects/DesignPatternsCpp/cmake-build-debug/Singleton/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/hk/CLionProjects/DesignPatternsCpp/cmake-build-debug/Singleton/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Adapter_object_adpter">
+				<Option output="/Users/hk/CLionProjects/DesignPatternsCpp/cmake-build-debug/Adapter/Adapter_object_adpter" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/hk/CLionProjects/DesignPatternsCpp/cmake-build-debug/Adapter"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/hk/CLionProjects/DesignPatternsCpp/cmake-build-debug/Adapter/Makefile&quot;  VERBOSE=1 Adapter_object_adpter"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/hk/CLionProjects/DesignPatternsCpp/cmake-build-debug/Adapter/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/hk/CLionProjects/DesignPatternsCpp/cmake-build-debug/Adapter/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/hk/CLionProjects/DesignPatternsCpp/cmake-build-debug/Adapter/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Adapter_object_adpter/fast">
+				<Option output="/Users/hk/CLionProjects/DesignPatternsCpp/cmake-build-debug/Adapter/Adapter_object_adpter" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/hk/CLionProjects/DesignPatternsCpp/cmake-build-debug/Adapter"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/hk/CLionProjects/DesignPatternsCpp/cmake-build-debug/Adapter/Makefile&quot;  VERBOSE=1 Adapter_object_adpter/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/hk/CLionProjects/DesignPatternsCpp/cmake-build-debug/Adapter/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/hk/CLionProjects/DesignPatternsCpp/cmake-build-debug/Adapter/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/hk/CLionProjects/DesignPatternsCpp/cmake-build-debug/Adapter/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Adapter_class_adpter">
+				<Option output="/Users/hk/CLionProjects/DesignPatternsCpp/cmake-build-debug/Adapter/Adapter_class_adpter" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/hk/CLionProjects/DesignPatternsCpp/cmake-build-debug/Adapter"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/hk/CLionProjects/DesignPatternsCpp/cmake-build-debug/Adapter/Makefile&quot;  VERBOSE=1 Adapter_class_adpter"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/hk/CLionProjects/DesignPatternsCpp/cmake-build-debug/Adapter/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/hk/CLionProjects/DesignPatternsCpp/cmake-build-debug/Adapter/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/hk/CLionProjects/DesignPatternsCpp/cmake-build-debug/Adapter/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Adapter_class_adpter/fast">
+				<Option output="/Users/hk/CLionProjects/DesignPatternsCpp/cmake-build-debug/Adapter/Adapter_class_adpter" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/hk/CLionProjects/DesignPatternsCpp/cmake-build-debug/Adapter"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/hk/CLionProjects/DesignPatternsCpp/cmake-build-debug/Adapter/Makefile&quot;  VERBOSE=1 Adapter_class_adpter/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/hk/CLionProjects/DesignPatternsCpp/cmake-build-debug/Adapter/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/hk/CLionProjects/DesignPatternsCpp/cmake-build-debug/Adapter/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/hk/CLionProjects/DesignPatternsCpp/cmake-build-debug/Adapter/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Adapter_test">
+				<Option output="/Users/hk/CLionProjects/DesignPatternsCpp/cmake-build-debug/Adapter/Adapter_test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/hk/CLionProjects/DesignPatternsCpp/cmake-build-debug/Adapter"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/hk/CLionProjects/DesignPatternsCpp/cmake-build-debug/Adapter/Makefile&quot;  VERBOSE=1 Adapter_test"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/hk/CLionProjects/DesignPatternsCpp/cmake-build-debug/Adapter/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/hk/CLionProjects/DesignPatternsCpp/cmake-build-debug/Adapter/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/hk/CLionProjects/DesignPatternsCpp/cmake-build-debug/Adapter/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Adapter_test/fast">
+				<Option output="/Users/hk/CLionProjects/DesignPatternsCpp/cmake-build-debug/Adapter/Adapter_test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/hk/CLionProjects/DesignPatternsCpp/cmake-build-debug/Adapter"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/hk/CLionProjects/DesignPatternsCpp/cmake-build-debug/Adapter/Makefile&quot;  VERBOSE=1 Adapter_test/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/hk/CLionProjects/DesignPatternsCpp/cmake-build-debug/Adapter/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/hk/CLionProjects/DesignPatternsCpp/cmake-build-debug/Adapter/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/hk/CLionProjects/DesignPatternsCpp/cmake-build-debug/Adapter/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Adapter">
+				<Option output="/Users/hk/CLionProjects/DesignPatternsCpp/cmake-build-debug/Adapter/Adapter" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/hk/CLionProjects/DesignPatternsCpp/cmake-build-debug/Adapter"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/hk/CLionProjects/DesignPatternsCpp/cmake-build-debug/Adapter/Makefile&quot;  VERBOSE=1 Adapter"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/hk/CLionProjects/DesignPatternsCpp/cmake-build-debug/Adapter/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/hk/CLionProjects/DesignPatternsCpp/cmake-build-debug/Adapter/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/hk/CLionProjects/DesignPatternsCpp/cmake-build-debug/Adapter/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Adapter/fast">
+				<Option output="/Users/hk/CLionProjects/DesignPatternsCpp/cmake-build-debug/Adapter/Adapter" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/hk/CLionProjects/DesignPatternsCpp/cmake-build-debug/Adapter"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/hk/CLionProjects/DesignPatternsCpp/cmake-build-debug/Adapter/Makefile&quot;  VERBOSE=1 Adapter/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/hk/CLionProjects/DesignPatternsCpp/cmake-build-debug/Adapter/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/hk/CLionProjects/DesignPatternsCpp/cmake-build-debug/Adapter/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/hk/CLionProjects/DesignPatternsCpp/cmake-build-debug/Adapter/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Bridge1">
+				<Option output="/Users/hk/CLionProjects/DesignPatternsCpp/cmake-build-debug/Bridge/Bridge1" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/hk/CLionProjects/DesignPatternsCpp/cmake-build-debug/Bridge"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/hk/CLionProjects/DesignPatternsCpp/cmake-build-debug/Bridge/Makefile&quot;  VERBOSE=1 Bridge1"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/hk/CLionProjects/DesignPatternsCpp/cmake-build-debug/Bridge/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/hk/CLionProjects/DesignPatternsCpp/cmake-build-debug/Bridge/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/hk/CLionProjects/DesignPatternsCpp/cmake-build-debug/Bridge/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Bridge1/fast">
+				<Option output="/Users/hk/CLionProjects/DesignPatternsCpp/cmake-build-debug/Bridge/Bridge1" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/hk/CLionProjects/DesignPatternsCpp/cmake-build-debug/Bridge"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/hk/CLionProjects/DesignPatternsCpp/cmake-build-debug/Bridge/Makefile&quot;  VERBOSE=1 Bridge1/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/hk/CLionProjects/DesignPatternsCpp/cmake-build-debug/Bridge/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/hk/CLionProjects/DesignPatternsCpp/cmake-build-debug/Bridge/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/hk/CLionProjects/DesignPatternsCpp/cmake-build-debug/Bridge/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Bridge">
+				<Option output="/Users/hk/CLionProjects/DesignPatternsCpp/cmake-build-debug/Bridge/Bridge" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/hk/CLionProjects/DesignPatternsCpp/cmake-build-debug/Bridge"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/hk/CLionProjects/DesignPatternsCpp/cmake-build-debug/Bridge/Makefile&quot;  VERBOSE=1 Bridge"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/hk/CLionProjects/DesignPatternsCpp/cmake-build-debug/Bridge/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/hk/CLionProjects/DesignPatternsCpp/cmake-build-debug/Bridge/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/hk/CLionProjects/DesignPatternsCpp/cmake-build-debug/Bridge/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Bridge/fast">
+				<Option output="/Users/hk/CLionProjects/DesignPatternsCpp/cmake-build-debug/Bridge/Bridge" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/hk/CLionProjects/DesignPatternsCpp/cmake-build-debug/Bridge"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/hk/CLionProjects/DesignPatternsCpp/cmake-build-debug/Bridge/Makefile&quot;  VERBOSE=1 Bridge/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/hk/CLionProjects/DesignPatternsCpp/cmake-build-debug/Bridge/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/hk/CLionProjects/DesignPatternsCpp/cmake-build-debug/Bridge/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/hk/CLionProjects/DesignPatternsCpp/cmake-build-debug/Bridge/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Composite">
+				<Option output="/Users/hk/CLionProjects/DesignPatternsCpp/cmake-build-debug/Composite/Composite" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/hk/CLionProjects/DesignPatternsCpp/cmake-build-debug/Composite"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/hk/CLionProjects/DesignPatternsCpp/cmake-build-debug/Composite/Makefile&quot;  VERBOSE=1 Composite"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/hk/CLionProjects/DesignPatternsCpp/cmake-build-debug/Composite/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/hk/CLionProjects/DesignPatternsCpp/cmake-build-debug/Composite/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/hk/CLionProjects/DesignPatternsCpp/cmake-build-debug/Composite/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Composite/fast">
+				<Option output="/Users/hk/CLionProjects/DesignPatternsCpp/cmake-build-debug/Composite/Composite" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/hk/CLionProjects/DesignPatternsCpp/cmake-build-debug/Composite"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/hk/CLionProjects/DesignPatternsCpp/cmake-build-debug/Composite/Makefile&quot;  VERBOSE=1 Composite/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/hk/CLionProjects/DesignPatternsCpp/cmake-build-debug/Composite/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/hk/CLionProjects/DesignPatternsCpp/cmake-build-debug/Composite/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/hk/CLionProjects/DesignPatternsCpp/cmake-build-debug/Composite/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Decorator">
+				<Option output="/Users/hk/CLionProjects/DesignPatternsCpp/cmake-build-debug/Decorator/Decorator" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/hk/CLionProjects/DesignPatternsCpp/cmake-build-debug/Decorator"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/hk/CLionProjects/DesignPatternsCpp/cmake-build-debug/Decorator/Makefile&quot;  VERBOSE=1 Decorator"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/hk/CLionProjects/DesignPatternsCpp/cmake-build-debug/Decorator/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/hk/CLionProjects/DesignPatternsCpp/cmake-build-debug/Decorator/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/hk/CLionProjects/DesignPatternsCpp/cmake-build-debug/Decorator/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Decorator/fast">
+				<Option output="/Users/hk/CLionProjects/DesignPatternsCpp/cmake-build-debug/Decorator/Decorator" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/hk/CLionProjects/DesignPatternsCpp/cmake-build-debug/Decorator"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/hk/CLionProjects/DesignPatternsCpp/cmake-build-debug/Decorator/Makefile&quot;  VERBOSE=1 Decorator/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/hk/CLionProjects/DesignPatternsCpp/cmake-build-debug/Decorator/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/hk/CLionProjects/DesignPatternsCpp/cmake-build-debug/Decorator/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/hk/CLionProjects/DesignPatternsCpp/cmake-build-debug/Decorator/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Facade">
+				<Option output="/Users/hk/CLionProjects/DesignPatternsCpp/cmake-build-debug/Facade/Facade" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/hk/CLionProjects/DesignPatternsCpp/cmake-build-debug/Facade"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/hk/CLionProjects/DesignPatternsCpp/cmake-build-debug/Facade/Makefile&quot;  VERBOSE=1 Facade"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/hk/CLionProjects/DesignPatternsCpp/cmake-build-debug/Facade/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/hk/CLionProjects/DesignPatternsCpp/cmake-build-debug/Facade/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/hk/CLionProjects/DesignPatternsCpp/cmake-build-debug/Facade/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Facade/fast">
+				<Option output="/Users/hk/CLionProjects/DesignPatternsCpp/cmake-build-debug/Facade/Facade" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/hk/CLionProjects/DesignPatternsCpp/cmake-build-debug/Facade"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/hk/CLionProjects/DesignPatternsCpp/cmake-build-debug/Facade/Makefile&quot;  VERBOSE=1 Facade/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/hk/CLionProjects/DesignPatternsCpp/cmake-build-debug/Facade/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/hk/CLionProjects/DesignPatternsCpp/cmake-build-debug/Facade/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/hk/CLionProjects/DesignPatternsCpp/cmake-build-debug/Facade/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Flyweight">
+				<Option output="/Users/hk/CLionProjects/DesignPatternsCpp/cmake-build-debug/Flyweight/Flyweight" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/hk/CLionProjects/DesignPatternsCpp/cmake-build-debug/Flyweight"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/hk/CLionProjects/DesignPatternsCpp/cmake-build-debug/Flyweight/Makefile&quot;  VERBOSE=1 Flyweight"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/hk/CLionProjects/DesignPatternsCpp/cmake-build-debug/Flyweight/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/hk/CLionProjects/DesignPatternsCpp/cmake-build-debug/Flyweight/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/hk/CLionProjects/DesignPatternsCpp/cmake-build-debug/Flyweight/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Flyweight/fast">
+				<Option output="/Users/hk/CLionProjects/DesignPatternsCpp/cmake-build-debug/Flyweight/Flyweight" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/hk/CLionProjects/DesignPatternsCpp/cmake-build-debug/Flyweight"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/hk/CLionProjects/DesignPatternsCpp/cmake-build-debug/Flyweight/Makefile&quot;  VERBOSE=1 Flyweight/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/hk/CLionProjects/DesignPatternsCpp/cmake-build-debug/Flyweight/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/hk/CLionProjects/DesignPatternsCpp/cmake-build-debug/Flyweight/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/hk/CLionProjects/DesignPatternsCpp/cmake-build-debug/Flyweight/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Proxy">
+				<Option output="/Users/hk/CLionProjects/DesignPatternsCpp/cmake-build-debug/Proxy/Proxy" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/hk/CLionProjects/DesignPatternsCpp/cmake-build-debug/Proxy"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/hk/CLionProjects/DesignPatternsCpp/cmake-build-debug/Proxy/Makefile&quot;  VERBOSE=1 Proxy"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/hk/CLionProjects/DesignPatternsCpp/cmake-build-debug/Proxy/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/hk/CLionProjects/DesignPatternsCpp/cmake-build-debug/Proxy/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/hk/CLionProjects/DesignPatternsCpp/cmake-build-debug/Proxy/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Proxy/fast">
+				<Option output="/Users/hk/CLionProjects/DesignPatternsCpp/cmake-build-debug/Proxy/Proxy" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/hk/CLionProjects/DesignPatternsCpp/cmake-build-debug/Proxy"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/hk/CLionProjects/DesignPatternsCpp/cmake-build-debug/Proxy/Makefile&quot;  VERBOSE=1 Proxy/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/hk/CLionProjects/DesignPatternsCpp/cmake-build-debug/Proxy/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/hk/CLionProjects/DesignPatternsCpp/cmake-build-debug/Proxy/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/hk/CLionProjects/DesignPatternsCpp/cmake-build-debug/Proxy/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ChainOfResponsibility">
+				<Option output="/Users/hk/CLionProjects/DesignPatternsCpp/cmake-build-debug/ChainOfResponsibility/ChainOfResponsibility" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/hk/CLionProjects/DesignPatternsCpp/cmake-build-debug/ChainOfResponsibility"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/hk/CLionProjects/DesignPatternsCpp/cmake-build-debug/ChainOfResponsibility/Makefile&quot;  VERBOSE=1 ChainOfResponsibility"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/hk/CLionProjects/DesignPatternsCpp/cmake-build-debug/ChainOfResponsibility/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/hk/CLionProjects/DesignPatternsCpp/cmake-build-debug/ChainOfResponsibility/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/hk/CLionProjects/DesignPatternsCpp/cmake-build-debug/ChainOfResponsibility/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ChainOfResponsibility/fast">
+				<Option output="/Users/hk/CLionProjects/DesignPatternsCpp/cmake-build-debug/ChainOfResponsibility/ChainOfResponsibility" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/hk/CLionProjects/DesignPatternsCpp/cmake-build-debug/ChainOfResponsibility"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/hk/CLionProjects/DesignPatternsCpp/cmake-build-debug/ChainOfResponsibility/Makefile&quot;  VERBOSE=1 ChainOfResponsibility/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/hk/CLionProjects/DesignPatternsCpp/cmake-build-debug/ChainOfResponsibility/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/hk/CLionProjects/DesignPatternsCpp/cmake-build-debug/ChainOfResponsibility/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/hk/CLionProjects/DesignPatternsCpp/cmake-build-debug/ChainOfResponsibility/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Command">
+				<Option output="/Users/hk/CLionProjects/DesignPatternsCpp/cmake-build-debug/Command/Command" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/hk/CLionProjects/DesignPatternsCpp/cmake-build-debug/Command"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/hk/CLionProjects/DesignPatternsCpp/cmake-build-debug/Command/Makefile&quot;  VERBOSE=1 Command"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/hk/CLionProjects/DesignPatternsCpp/cmake-build-debug/Command/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/hk/CLionProjects/DesignPatternsCpp/cmake-build-debug/Command/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/hk/CLionProjects/DesignPatternsCpp/cmake-build-debug/Command/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Command/fast">
+				<Option output="/Users/hk/CLionProjects/DesignPatternsCpp/cmake-build-debug/Command/Command" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/hk/CLionProjects/DesignPatternsCpp/cmake-build-debug/Command"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/hk/CLionProjects/DesignPatternsCpp/cmake-build-debug/Command/Makefile&quot;  VERBOSE=1 Command/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/hk/CLionProjects/DesignPatternsCpp/cmake-build-debug/Command/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/hk/CLionProjects/DesignPatternsCpp/cmake-build-debug/Command/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/hk/CLionProjects/DesignPatternsCpp/cmake-build-debug/Command/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Iterator">
+				<Option output="/Users/hk/CLionProjects/DesignPatternsCpp/cmake-build-debug/Iterator/Iterator" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/hk/CLionProjects/DesignPatternsCpp/cmake-build-debug/Iterator"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/hk/CLionProjects/DesignPatternsCpp/cmake-build-debug/Iterator/Makefile&quot;  VERBOSE=1 Iterator"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/hk/CLionProjects/DesignPatternsCpp/cmake-build-debug/Iterator/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/hk/CLionProjects/DesignPatternsCpp/cmake-build-debug/Iterator/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/hk/CLionProjects/DesignPatternsCpp/cmake-build-debug/Iterator/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Iterator/fast">
+				<Option output="/Users/hk/CLionProjects/DesignPatternsCpp/cmake-build-debug/Iterator/Iterator" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/hk/CLionProjects/DesignPatternsCpp/cmake-build-debug/Iterator"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/hk/CLionProjects/DesignPatternsCpp/cmake-build-debug/Iterator/Makefile&quot;  VERBOSE=1 Iterator/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/hk/CLionProjects/DesignPatternsCpp/cmake-build-debug/Iterator/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/hk/CLionProjects/DesignPatternsCpp/cmake-build-debug/Iterator/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/hk/CLionProjects/DesignPatternsCpp/cmake-build-debug/Iterator/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Mediator">
+				<Option output="/Users/hk/CLionProjects/DesignPatternsCpp/cmake-build-debug/Mediator/Mediator" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/hk/CLionProjects/DesignPatternsCpp/cmake-build-debug/Mediator"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/hk/CLionProjects/DesignPatternsCpp/cmake-build-debug/Mediator/Makefile&quot;  VERBOSE=1 Mediator"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/hk/CLionProjects/DesignPatternsCpp/cmake-build-debug/Mediator/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/hk/CLionProjects/DesignPatternsCpp/cmake-build-debug/Mediator/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/hk/CLionProjects/DesignPatternsCpp/cmake-build-debug/Mediator/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Mediator/fast">
+				<Option output="/Users/hk/CLionProjects/DesignPatternsCpp/cmake-build-debug/Mediator/Mediator" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/hk/CLionProjects/DesignPatternsCpp/cmake-build-debug/Mediator"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/hk/CLionProjects/DesignPatternsCpp/cmake-build-debug/Mediator/Makefile&quot;  VERBOSE=1 Mediator/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/hk/CLionProjects/DesignPatternsCpp/cmake-build-debug/Mediator/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/hk/CLionProjects/DesignPatternsCpp/cmake-build-debug/Mediator/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/hk/CLionProjects/DesignPatternsCpp/cmake-build-debug/Mediator/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Memento">
+				<Option output="/Users/hk/CLionProjects/DesignPatternsCpp/cmake-build-debug/Memento/Memento" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/hk/CLionProjects/DesignPatternsCpp/cmake-build-debug/Memento"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/hk/CLionProjects/DesignPatternsCpp/cmake-build-debug/Memento/Makefile&quot;  VERBOSE=1 Memento"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/hk/CLionProjects/DesignPatternsCpp/cmake-build-debug/Memento/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/hk/CLionProjects/DesignPatternsCpp/cmake-build-debug/Memento/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/hk/CLionProjects/DesignPatternsCpp/cmake-build-debug/Memento/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Memento/fast">
+				<Option output="/Users/hk/CLionProjects/DesignPatternsCpp/cmake-build-debug/Memento/Memento" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/hk/CLionProjects/DesignPatternsCpp/cmake-build-debug/Memento"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/hk/CLionProjects/DesignPatternsCpp/cmake-build-debug/Memento/Makefile&quot;  VERBOSE=1 Memento/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/hk/CLionProjects/DesignPatternsCpp/cmake-build-debug/Memento/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/hk/CLionProjects/DesignPatternsCpp/cmake-build-debug/Memento/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/hk/CLionProjects/DesignPatternsCpp/cmake-build-debug/Memento/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Observer">
+				<Option output="/Users/hk/CLionProjects/DesignPatternsCpp/cmake-build-debug/Observer/Observer" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/hk/CLionProjects/DesignPatternsCpp/cmake-build-debug/Observer"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/hk/CLionProjects/DesignPatternsCpp/cmake-build-debug/Observer/Makefile&quot;  VERBOSE=1 Observer"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/hk/CLionProjects/DesignPatternsCpp/cmake-build-debug/Observer/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/hk/CLionProjects/DesignPatternsCpp/cmake-build-debug/Observer/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/hk/CLionProjects/DesignPatternsCpp/cmake-build-debug/Observer/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Observer/fast">
+				<Option output="/Users/hk/CLionProjects/DesignPatternsCpp/cmake-build-debug/Observer/Observer" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/hk/CLionProjects/DesignPatternsCpp/cmake-build-debug/Observer"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/hk/CLionProjects/DesignPatternsCpp/cmake-build-debug/Observer/Makefile&quot;  VERBOSE=1 Observer/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/hk/CLionProjects/DesignPatternsCpp/cmake-build-debug/Observer/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/hk/CLionProjects/DesignPatternsCpp/cmake-build-debug/Observer/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/hk/CLionProjects/DesignPatternsCpp/cmake-build-debug/Observer/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Visitor">
+				<Option output="/Users/hk/CLionProjects/DesignPatternsCpp/cmake-build-debug/Visitor/Visitor" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/hk/CLionProjects/DesignPatternsCpp/cmake-build-debug/Visitor"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/hk/CLionProjects/DesignPatternsCpp/cmake-build-debug/Visitor/Makefile&quot;  VERBOSE=1 Visitor"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/hk/CLionProjects/DesignPatternsCpp/cmake-build-debug/Visitor/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/hk/CLionProjects/DesignPatternsCpp/cmake-build-debug/Visitor/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/hk/CLionProjects/DesignPatternsCpp/cmake-build-debug/Visitor/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Visitor/fast">
+				<Option output="/Users/hk/CLionProjects/DesignPatternsCpp/cmake-build-debug/Visitor/Visitor" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/hk/CLionProjects/DesignPatternsCpp/cmake-build-debug/Visitor"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/hk/CLionProjects/DesignPatternsCpp/cmake-build-debug/Visitor/Makefile&quot;  VERBOSE=1 Visitor/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/hk/CLionProjects/DesignPatternsCpp/cmake-build-debug/Visitor/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/hk/CLionProjects/DesignPatternsCpp/cmake-build-debug/Visitor/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/hk/CLionProjects/DesignPatternsCpp/cmake-build-debug/Visitor/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Strategy">
+				<Option output="/Users/hk/CLionProjects/DesignPatternsCpp/cmake-build-debug/Strategy/Strategy" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/hk/CLionProjects/DesignPatternsCpp/cmake-build-debug/Strategy"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/hk/CLionProjects/DesignPatternsCpp/cmake-build-debug/Strategy/Makefile&quot;  VERBOSE=1 Strategy"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/hk/CLionProjects/DesignPatternsCpp/cmake-build-debug/Strategy/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/hk/CLionProjects/DesignPatternsCpp/cmake-build-debug/Strategy/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/hk/CLionProjects/DesignPatternsCpp/cmake-build-debug/Strategy/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Strategy/fast">
+				<Option output="/Users/hk/CLionProjects/DesignPatternsCpp/cmake-build-debug/Strategy/Strategy" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/hk/CLionProjects/DesignPatternsCpp/cmake-build-debug/Strategy"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/hk/CLionProjects/DesignPatternsCpp/cmake-build-debug/Strategy/Makefile&quot;  VERBOSE=1 Strategy/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/hk/CLionProjects/DesignPatternsCpp/cmake-build-debug/Strategy/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/hk/CLionProjects/DesignPatternsCpp/cmake-build-debug/Strategy/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/hk/CLionProjects/DesignPatternsCpp/cmake-build-debug/Strategy/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="State">
+				<Option output="/Users/hk/CLionProjects/DesignPatternsCpp/cmake-build-debug/State/State" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/hk/CLionProjects/DesignPatternsCpp/cmake-build-debug/State"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/hk/CLionProjects/DesignPatternsCpp/cmake-build-debug/State/Makefile&quot;  VERBOSE=1 State"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/hk/CLionProjects/DesignPatternsCpp/cmake-build-debug/State/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/hk/CLionProjects/DesignPatternsCpp/cmake-build-debug/State/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/hk/CLionProjects/DesignPatternsCpp/cmake-build-debug/State/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="State/fast">
+				<Option output="/Users/hk/CLionProjects/DesignPatternsCpp/cmake-build-debug/State/State" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/hk/CLionProjects/DesignPatternsCpp/cmake-build-debug/State"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/hk/CLionProjects/DesignPatternsCpp/cmake-build-debug/State/Makefile&quot;  VERBOSE=1 State/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/hk/CLionProjects/DesignPatternsCpp/cmake-build-debug/State/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/hk/CLionProjects/DesignPatternsCpp/cmake-build-debug/State/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/hk/CLionProjects/DesignPatternsCpp/cmake-build-debug/State/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="TemplateMethod">
+				<Option output="/Users/hk/CLionProjects/DesignPatternsCpp/cmake-build-debug/TemplateMethod/TemplateMethod" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/hk/CLionProjects/DesignPatternsCpp/cmake-build-debug/TemplateMethod"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/hk/CLionProjects/DesignPatternsCpp/cmake-build-debug/TemplateMethod/Makefile&quot;  VERBOSE=1 TemplateMethod"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/hk/CLionProjects/DesignPatternsCpp/cmake-build-debug/TemplateMethod/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/hk/CLionProjects/DesignPatternsCpp/cmake-build-debug/TemplateMethod/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/hk/CLionProjects/DesignPatternsCpp/cmake-build-debug/TemplateMethod/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="TemplateMethod/fast">
+				<Option output="/Users/hk/CLionProjects/DesignPatternsCpp/cmake-build-debug/TemplateMethod/TemplateMethod" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/hk/CLionProjects/DesignPatternsCpp/cmake-build-debug/TemplateMethod"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/hk/CLionProjects/DesignPatternsCpp/cmake-build-debug/TemplateMethod/Makefile&quot;  VERBOSE=1 TemplateMethod/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/hk/CLionProjects/DesignPatternsCpp/cmake-build-debug/TemplateMethod/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/hk/CLionProjects/DesignPatternsCpp/cmake-build-debug/TemplateMethod/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/hk/CLionProjects/DesignPatternsCpp/cmake-build-debug/TemplateMethod/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/hk/CLionProjects/DesignPatternsCpp/AbstractFactory/main.cpp">
+			<Option target="AbstractFactory"/>
+		</Unit>
+		<Unit filename="/Users/hk/CLionProjects/DesignPatternsCpp/AbstractFactory/practice.cpp">
+			<Option target="AbstractFactory1"/>
+		</Unit>
+		<Unit filename="/Users/hk/CLionProjects/DesignPatternsCpp/Adapter/class_adpter.cpp">
+			<Option target="Adapter_class_adpter"/>
+		</Unit>
+		<Unit filename="/Users/hk/CLionProjects/DesignPatternsCpp/Adapter/main.cpp">
+			<Option target="Adapter"/>
+		</Unit>
+		<Unit filename="/Users/hk/CLionProjects/DesignPatternsCpp/Adapter/object_adpter.cpp">
+			<Option target="Adapter_object_adpter"/>
+		</Unit>
+		<Unit filename="/Users/hk/CLionProjects/DesignPatternsCpp/Adapter/practice.cpp">
+			<Option target="Adapter_test"/>
+		</Unit>
+		<Unit filename="/Users/hk/CLionProjects/DesignPatternsCpp/Bridge/Bridge1.cpp">
+			<Option target="Bridge1"/>
+		</Unit>
+		<Unit filename="/Users/hk/CLionProjects/DesignPatternsCpp/Bridge/main.cpp">
+			<Option target="Bridge"/>
+		</Unit>
+		<Unit filename="/Users/hk/CLionProjects/DesignPatternsCpp/Builder/main.cpp">
+			<Option target="Builder"/>
+		</Unit>
+		<Unit filename="/Users/hk/CLionProjects/DesignPatternsCpp/ChainOfResponsibility/main.cpp">
+			<Option target="ChainOfResponsibility"/>
+		</Unit>
+		<Unit filename="/Users/hk/CLionProjects/DesignPatternsCpp/Command/main.cpp">
+			<Option target="Command"/>
+		</Unit>
+		<Unit filename="/Users/hk/CLionProjects/DesignPatternsCpp/Composite/main.cpp">
+			<Option target="Composite"/>
+		</Unit>
+		<Unit filename="/Users/hk/CLionProjects/DesignPatternsCpp/Decorator/main.cpp">
+			<Option target="Decorator"/>
+		</Unit>
+		<Unit filename="/Users/hk/CLionProjects/DesignPatternsCpp/Facade/main.cpp">
+			<Option target="Facade"/>
+		</Unit>
+		<Unit filename="/Users/hk/CLionProjects/DesignPatternsCpp/FactoryMethod/main.cpp">
+			<Option target="FactoryMethod"/>
+		</Unit>
+		<Unit filename="/Users/hk/CLionProjects/DesignPatternsCpp/Flyweight/main.cpp">
+			<Option target="Flyweight"/>
+		</Unit>
+		<Unit filename="/Users/hk/CLionProjects/DesignPatternsCpp/Iterator/main.cpp">
+			<Option target="Iterator"/>
+		</Unit>
+		<Unit filename="/Users/hk/CLionProjects/DesignPatternsCpp/Mediator/main.cpp">
+			<Option target="Mediator"/>
+		</Unit>
+		<Unit filename="/Users/hk/CLionProjects/DesignPatternsCpp/Memento/main.cpp">
+			<Option target="Memento"/>
+		</Unit>
+		<Unit filename="/Users/hk/CLionProjects/DesignPatternsCpp/Observer/main.cpp">
+			<Option target="Observer"/>
+		</Unit>
+		<Unit filename="/Users/hk/CLionProjects/DesignPatternsCpp/Prototype/main.cpp">
+			<Option target="Prototype"/>
+		</Unit>
+		<Unit filename="/Users/hk/CLionProjects/DesignPatternsCpp/Proxy/main.cpp">
+			<Option target="Proxy"/>
+		</Unit>
+		<Unit filename="/Users/hk/CLionProjects/DesignPatternsCpp/SimpleFactory/main.cpp">
+			<Option target="SimpleFactory"/>
+		</Unit>
+		<Unit filename="/Users/hk/CLionProjects/DesignPatternsCpp/Singleton/main.cpp">
+			<Option target="Singleton"/>
+		</Unit>
+		<Unit filename="/Users/hk/CLionProjects/DesignPatternsCpp/State/main.cpp">
+			<Option target="State"/>
+		</Unit>
+		<Unit filename="/Users/hk/CLionProjects/DesignPatternsCpp/Strategy/main.cpp">
+			<Option target="Strategy"/>
+		</Unit>
+		<Unit filename="/Users/hk/CLionProjects/DesignPatternsCpp/TemplateMethod/main.cpp">
+			<Option target="TemplateMethod"/>
+		</Unit>
+		<Unit filename="/Users/hk/CLionProjects/DesignPatternsCpp/Visitor/main.cpp">
+			<Option target="Visitor"/>
+		</Unit>
+		<Unit filename="/Users/hk/CLionProjects/DesignPatternsCpp/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/Users/hk/CLionProjects/DesignPatternsCpp/SimpleFactory/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\SimpleFactory\"/>
+		</Unit>
+		<Unit filename="/Users/hk/CLionProjects/DesignPatternsCpp/FactoryMethod/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\FactoryMethod\"/>
+		</Unit>
+		<Unit filename="/Users/hk/CLionProjects/DesignPatternsCpp/AbstractFactory/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\AbstractFactory\"/>
+		</Unit>
+		<Unit filename="/Users/hk/CLionProjects/DesignPatternsCpp/Builder/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Builder\"/>
+		</Unit>
+		<Unit filename="/Users/hk/CLionProjects/DesignPatternsCpp/Prototype/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Prototype\"/>
+		</Unit>
+		<Unit filename="/Users/hk/CLionProjects/DesignPatternsCpp/Singleton/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Singleton\"/>
+		</Unit>
+		<Unit filename="/Users/hk/CLionProjects/DesignPatternsCpp/Adapter/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Adapter\"/>
+		</Unit>
+		<Unit filename="/Users/hk/CLionProjects/DesignPatternsCpp/Bridge/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Bridge\"/>
+		</Unit>
+		<Unit filename="/Users/hk/CLionProjects/DesignPatternsCpp/Composite/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Composite\"/>
+		</Unit>
+		<Unit filename="/Users/hk/CLionProjects/DesignPatternsCpp/Decorator/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Decorator\"/>
+		</Unit>
+		<Unit filename="/Users/hk/CLionProjects/DesignPatternsCpp/Facade/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Facade\"/>
+		</Unit>
+		<Unit filename="/Users/hk/CLionProjects/DesignPatternsCpp/Flyweight/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Flyweight\"/>
+		</Unit>
+		<Unit filename="/Users/hk/CLionProjects/DesignPatternsCpp/Proxy/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Proxy\"/>
+		</Unit>
+		<Unit filename="/Users/hk/CLionProjects/DesignPatternsCpp/ChainOfResponsibility/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\ChainOfResponsibility\"/>
+		</Unit>
+		<Unit filename="/Users/hk/CLionProjects/DesignPatternsCpp/Command/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Command\"/>
+		</Unit>
+		<Unit filename="/Users/hk/CLionProjects/DesignPatternsCpp/Iterator/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Iterator\"/>
+		</Unit>
+		<Unit filename="/Users/hk/CLionProjects/DesignPatternsCpp/Mediator/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Mediator\"/>
+		</Unit>
+		<Unit filename="/Users/hk/CLionProjects/DesignPatternsCpp/Memento/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Memento\"/>
+		</Unit>
+		<Unit filename="/Users/hk/CLionProjects/DesignPatternsCpp/Observer/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Observer\"/>
+		</Unit>
+		<Unit filename="/Users/hk/CLionProjects/DesignPatternsCpp/Visitor/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Visitor\"/>
+		</Unit>
+		<Unit filename="/Users/hk/CLionProjects/DesignPatternsCpp/Strategy/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Strategy\"/>
+		</Unit>
+		<Unit filename="/Users/hk/CLionProjects/DesignPatternsCpp/State/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\State\"/>
+		</Unit>
+		<Unit filename="/Users/hk/CLionProjects/DesignPatternsCpp/TemplateMethod/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\TemplateMethod\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
