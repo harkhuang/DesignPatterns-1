@@ -1,3 +1,6 @@
 cmake_minimum_required(VERSION 2.8)
 
-add_executable(AbstractFactory main.cpp)
+add_executable(AbstractFactory main.cpp )
+
+
+add_executable(AbstractFactory1 practice.cpp)
