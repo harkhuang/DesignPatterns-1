@@ -38,9 +38,13 @@ private:
 class TeaShop {
 public:
     TeaShop(TeaMaker& teaMaker): teaMaker_(teaMaker) {}
+
+    // 点菜  点单
     void TakeOrder(const std::string& teaType, int table) {
         orders_[table] = teaMaker_.Make(teaType);
     }
+
+    // 服务
     void Serve() {
         for(auto order : orders_)
             std::cout << "Serving tea to table# " << order.first << std::endl;
@@ -72,6 +76,6 @@ int main()
     shop.TakeOrder("without sugar", 5);
 
     shop.Serve();
-
+   
     getchar();
 }
