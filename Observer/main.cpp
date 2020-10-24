@@ -68,6 +68,7 @@ public:
     }
 
 
+
     // 使得 m v  c
     void AddJob(const JobPost &jobPosting) override {
 
