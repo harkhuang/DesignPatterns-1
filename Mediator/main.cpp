@@ -27,6 +27,10 @@ private:
 
 
 
+
+
+
+
 // 聊天室对用户消息进行类一层封装
 void ChatRoom::ShowMessage(const User &user, const std::string &message) {
     std::time_t now = std::time(nullptr);
