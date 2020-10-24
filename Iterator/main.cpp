@@ -2,12 +2,17 @@
 #include <vector>
 #include <algorithm>
 
+// 电台信息
 class RadioStation {
+
+    // 重写操作电台1 和电台2 比较
   friend bool operator==(const RadioStation& lhs, const RadioStation& rhs) { return lhs.frequency_ == rhs.frequency_; }
 public:
   RadioStation(float frequency): frequency_(frequency) {}
   float GetFrequency() const { return frequency_; }
 private:
+
+    // 波段
   float frequency_;
 };
 
