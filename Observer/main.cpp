@@ -61,6 +61,10 @@ protected:
 
 
 
+
+
+
+
 class JobPostings : public IObservable {
 public:
     void Attach(IObserver& observer) override {
