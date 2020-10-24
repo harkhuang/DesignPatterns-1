@@ -25,6 +25,8 @@ public:
     // 完全记录当时的一种状态
     // 这个状态可以比较复杂 但是用例中仅仅是一个比较长的字符串
 
+
+
     MementoType Save() { return std::make_shared<EditorMemento>(content_); }
 
 
