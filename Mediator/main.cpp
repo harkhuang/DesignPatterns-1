@@ -2,9 +2,6 @@
 #include <string>
 #include <ctime>
 #include <iomanip>
-
-
-
 // 中介者设计模式
 class User;
 
