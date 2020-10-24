@@ -16,6 +16,9 @@ class Editor {
 
     // 定义一种类型
 
+
+
+
     //  typedef std::shared_ptr<EditorMemento>  MementoType;
     using MementoType = std::shared_ptr<EditorMemento>;    // 两种方式等价的。
 public:
